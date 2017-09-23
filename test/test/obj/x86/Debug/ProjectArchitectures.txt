@@ -1,0 +1,2 @@
+C:\Users\jted\Documents\GitHub\Launchpad.NET\Launchpad.NET\Launchpad.NET.csproj;x86
+C:\Users\jted\Documents\GitHub\Test\test\test\test.csproj;x86
