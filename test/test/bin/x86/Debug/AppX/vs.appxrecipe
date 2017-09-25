@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\jted\Documents\GitHub\Test\test\test\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T23:34:51.457</Modified>
+      <Modified>2017-09-25T01:24:02.431</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\bin\x86\Debug\test.exe">
       <PackagePath>entrypoint\test.exe</PackagePath>
-      <Modified>2017-09-23T23:34:50.563</Modified>
+      <Modified>2017-09-25T01:24:01.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -501,7 +501,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Launchpad.NET\Launchpad.NET\bin\x86\Debug\Launchpad.NET.dll">
       <PackagePath>Launchpad.NET.dll</PackagePath>
-      <Modified>2017-09-23T23:11:35.168</Modified>
+      <Modified>2017-09-24T09:44:30.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -552,11 +552,11 @@
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T23:34:51.214</Modified>
+      <Modified>2017-09-25T01:24:02.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\bin\x86\Debug\Core\test.exe">
       <PackagePath>test.exe</PackagePath>
-      <Modified>2017-09-23T23:34:51.451</Modified>
+      <Modified>2017-09-25T01:24:02.420</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

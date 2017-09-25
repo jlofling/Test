@@ -36,8 +36,8 @@ namespace test
         {
             
             var launchpad = await Novation.Launchpad("launchpad");
-            launchpad.SetButtonColor(3, 5, (byte)LaunchpadMK2Color.Orange);
-            launchpad.RegisterEffect(new FlashEffect(), TimeSpan.FromMilliseconds(100));
+           // launchpad.SetButtonColor(3, 5, (byte)LaunchpadMK2Color.Orange);
+            launchpad.RegisterEffect(new FlashEffect(), TimeSpan.FromMilliseconds(500));
 
         }
 
