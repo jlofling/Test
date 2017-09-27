@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-C1O935J</Machine>
+    <Machine>DESKTOP-DVPH7LS</Machine>
     <WindowsUser>jted</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\jted\Documents\GitHub\Test\test\test\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-25T01:24:02.431</Modified>
+      <Modified>2017-09-27T06:14:10.010</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\bin\x86\Debug\test.exe">
       <PackagePath>entrypoint\test.exe</PackagePath>
-      <Modified>2017-09-25T01:24:01.094</Modified>
+      <Modified>2017-09-27T06:14:09.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -501,62 +501,62 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Launchpad.NET\Launchpad.NET\bin\x86\Debug\Launchpad.NET.dll">
       <PackagePath>Launchpad.NET.dll</PackagePath>
-      <Modified>2017-09-24T09:44:30.234</Modified>
+      <Modified>2017-09-25T10:44:11.900</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-09-23T22:10:10.257</Modified>
+      <Modified>2017-09-25T07:16:51.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-09-23T19:20:25.999</Modified>
+      <Modified>2017-09-25T07:16:51.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T19:20:25.999</Modified>
+      <Modified>2017-09-25T07:16:51.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T19:20:25.999</Modified>
+      <Modified>2017-09-25T07:16:51.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T19:20:25.999</Modified>
+      <Modified>2017-09-25T07:16:51.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T19:20:25.999</Modified>
+      <Modified>2017-09-25T07:16:51.762</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T19:20:25.999</Modified>
+      <Modified>2017-09-25T07:16:51.762</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T19:20:25.999</Modified>
+      <Modified>2017-09-25T07:16:51.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\bin\x86\Debug\test.xr.xml">
       <PackagePath>test.xr.xml</PackagePath>
-      <Modified>2017-09-23T22:29:09.368</Modified>
+      <Modified>2017-09-25T07:16:59.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2017-09-23T19:30:11.139</Modified>
+      <Modified>2017-09-25T08:15:09.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-25T01:24:02.050</Modified>
+      <Modified>2017-09-27T06:14:09.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jted\Documents\GitHub\Test\test\test\bin\x86\Debug\Core\test.exe">
       <PackagePath>test.exe</PackagePath>
-      <Modified>2017-09-25T01:24:02.420</Modified>
+      <Modified>2017-09-27T06:14:10.006</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

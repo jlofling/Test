@@ -15,6 +15,7 @@ namespace test.Effects
         int row = 1;
         int col = 1;
         bool isGoingRight = true;
+        bool moveDown = false;
         int currentPass = 1;
         LaunchpadButton lastButton;
 
@@ -50,7 +51,11 @@ namespace test.Effects
 
         public void Update()
         {
-            System.Diagnostics.Debug.Write("------------------ \n Current Pass: " + currentPass + " \n" + "------------------ \n");
+            //System.Diagnostics.Debug.Write("------------------ \n Current Pass: " + currentPass + " \n" + "------------------ \n");
+            System.Diagnostics.Debug.WriteLine("=====================================");
+            System.Diagnostics.Debug.WriteLine("         Current Pass: " + currentPass);
+            System.Diagnostics.Debug.WriteLine("=====================================");
+
 
             var button11 = gridButtons.First(button => button.Id == (byte)(int.Parse("1" + "1")));
             var button12 = gridButtons.First(button => button.Id == (byte)(int.Parse("1" + "2")));
@@ -124,82 +129,77 @@ namespace test.Effects
             var button87 = gridButtons.First(button => button.Id == (byte)(int.Parse("8" + "7")));
             var button88 = gridButtons.First(button => button.Id == (byte)(int.Parse("8" + "8")));
 
-            button11.Color = (byte)LaunchpadMK2Color.Green1;
-            button12.Color = (byte)LaunchpadMK2Color.Green2;
-            button13.Color = (byte)LaunchpadMK2Color.Green3;
-            button14.Color = (byte)LaunchpadMK2Color.Blue1;
-            button15.Color = (byte)LaunchpadMK2Color.DarkGreen;
-            button16.Color = (byte)LaunchpadMK2Color.Orange;
-            button17.Color = (byte)LaunchpadMK2Color.Salmon;
-            button18.Color = (byte)LaunchpadMK2Color.Yellow2;
+            //button11.Color = (byte)LaunchpadMK2Color.Green1;
+            //button12.Color = (byte)LaunchpadMK2Color.Green2;
+            //button13.Color = (byte)LaunchpadMK2Color.Green3;
+            //button14.Color = (byte)LaunchpadMK2Color.Blue1;
+            //button15.Color = (byte)LaunchpadMK2Color.DarkGreen;
+            //button16.Color = (byte)LaunchpadMK2Color.Orange;
+            //button17.Color = (byte)LaunchpadMK2Color.Salmon;
+            //button18.Color = (byte)LaunchpadMK2Color.Yellow2;
 
-            button21.Color = (byte)LaunchpadMK2Color.Green1;
-            button22.Color = (byte)LaunchpadMK2Color.Green2;
-            button23.Color = (byte)LaunchpadMK2Color.Green3;
-            button24.Color = (byte)LaunchpadMK2Color.Blue1;
-            button25.Color = (byte)LaunchpadMK2Color.DarkGreen;
-            button26.Color = (byte)LaunchpadMK2Color.Orange;
-            button27.Color = (byte)LaunchpadMK2Color.Salmon;
-            button28.Color = (byte)LaunchpadMK2Color.Yellow2;
+            //button21.Color = (byte)LaunchpadMK2Color.Green1;
+            //button22.Color = (byte)LaunchpadMK2Color.Green2;
+            //button23.Color = (byte)LaunchpadMK2Color.Green3;
+            //button24.Color = (byte)LaunchpadMK2Color.Blue1;
+            //button25.Color = (byte)LaunchpadMK2Color.DarkGreen;
+            //button26.Color = (byte)LaunchpadMK2Color.Orange;
+            //button27.Color = (byte)LaunchpadMK2Color.Salmon;
+            //button28.Color = (byte)LaunchpadMK2Color.Yellow2;
 
-            button31.Color = (byte)LaunchpadMK2Color.Green1;
-            button32.Color = (byte)LaunchpadMK2Color.Green2;
-            button33.Color = (byte)LaunchpadMK2Color.Green3;
-            button34.Color = (byte)LaunchpadMK2Color.Blue1;
-            button35.Color = (byte)LaunchpadMK2Color.DarkGreen;
-            button36.Color = (byte)LaunchpadMK2Color.Orange;
-            button37.Color = (byte)LaunchpadMK2Color.Salmon;
-            button38.Color = (byte)LaunchpadMK2Color.Yellow2;
+            //button31.Color = (byte)LaunchpadMK2Color.Green1;
+            //button32.Color = (byte)LaunchpadMK2Color.Green2;
+            //button33.Color = (byte)LaunchpadMK2Color.Green3;
+            //button34.Color = (byte)LaunchpadMK2Color.Blue1;
+            //button35.Color = (byte)LaunchpadMK2Color.DarkGreen;
+            //button36.Color = (byte)LaunchpadMK2Color.Orange;
+            //button37.Color = (byte)LaunchpadMK2Color.Salmon;
+            //button38.Color = (byte)LaunchpadMK2Color.Yellow2;
 
-            button41.Color = (byte)LaunchpadMK2Color.Green1;
-            button42.Color = (byte)LaunchpadMK2Color.Green2;
-            button43.Color = (byte)LaunchpadMK2Color.Green3;
-            button44.Color = (byte)LaunchpadMK2Color.Blue1;
-            button45.Color = (byte)LaunchpadMK2Color.DarkGreen;
-            button46.Color = (byte)LaunchpadMK2Color.Orange;
-            button47.Color = (byte)LaunchpadMK2Color.Salmon;
-            button48.Color = (byte)LaunchpadMK2Color.Yellow2;
+            //button41.Color = (byte)LaunchpadMK2Color.Green1;
+            //button42.Color = (byte)LaunchpadMK2Color.Green2;
+            //button43.Color = (byte)LaunchpadMK2Color.Green3;
+            //button44.Color = (byte)LaunchpadMK2Color.Blue1;
+            //button45.Color = (byte)LaunchpadMK2Color.DarkGreen;
+            //button46.Color = (byte)LaunchpadMK2Color.Orange;
+            //button47.Color = (byte)LaunchpadMK2Color.Salmon;
+            //button48.Color = (byte)LaunchpadMK2Color.Yellow2;
 
-            button51.Color = (byte)LaunchpadMK2Color.Green1;
-            button52.Color = (byte)LaunchpadMK2Color.Green2;
-            button53.Color = (byte)LaunchpadMK2Color.Green3;
-            button54.Color = (byte)LaunchpadMK2Color.Blue1;
-            button55.Color = (byte)LaunchpadMK2Color.DarkGreen;
-            button56.Color = (byte)LaunchpadMK2Color.Orange;
-            button57.Color = (byte)LaunchpadMK2Color.Salmon;
-            button58.Color = (byte)LaunchpadMK2Color.Yellow2;
+            //button51.Color = (byte)LaunchpadMK2Color.Green1;
+            //button52.Color = (byte)LaunchpadMK2Color.Green2;
+            //button53.Color = (byte)LaunchpadMK2Color.Green3;
+            //button54.Color = (byte)LaunchpadMK2Color.Blue1;
+            //button55.Color = (byte)LaunchpadMK2Color.DarkGreen;
+            //button56.Color = (byte)LaunchpadMK2Color.Orange;
+            //button57.Color = (byte)LaunchpadMK2Color.Salmon;
+            //button58.Color = (byte)LaunchpadMK2Color.Yellow2;
 
-            button61.Color = (byte)LaunchpadMK2Color.Green1;
-            button62.Color = (byte)LaunchpadMK2Color.Green2;
-            button63.Color = (byte)LaunchpadMK2Color.Green3;
-            button64.Color = (byte)LaunchpadMK2Color.Blue1;
-            button65.Color = (byte)LaunchpadMK2Color.DarkGreen;
-            button66.Color = (byte)LaunchpadMK2Color.Orange;
-            button67.Color = (byte)LaunchpadMK2Color.Salmon;
-            button68.Color = (byte)LaunchpadMK2Color.Yellow2;
+            //button61.Color = (byte)LaunchpadMK2Color.Green1;
+            //button62.Color = (byte)LaunchpadMK2Color.Green2;
+            //button63.Color = (byte)LaunchpadMK2Color.Green3;
+            //button64.Color = (byte)LaunchpadMK2Color.Blue1;
+            //button65.Color = (byte)LaunchpadMK2Color.DarkGreen;
+            //button66.Color = (byte)LaunchpadMK2Color.Orange;
+            //button67.Color = (byte)LaunchpadMK2Color.Salmon;
+            //button68.Color = (byte)LaunchpadMK2Color.Yellow2;
 
-            button71.Color = (byte)LaunchpadMK2Color.Green1;
-            button72.Color = (byte)LaunchpadMK2Color.Green2;
-            button73.Color = (byte)LaunchpadMK2Color.Green3;
-            button74.Color = (byte)LaunchpadMK2Color.Blue1;
-            button75.Color = (byte)LaunchpadMK2Color.DarkGreen;
-            button76.Color = (byte)LaunchpadMK2Color.Orange;
-            button77.Color = (byte)LaunchpadMK2Color.Salmon;
-            button78.Color = (byte)LaunchpadMK2Color.Yellow2;
+            //button71.Color = (byte)LaunchpadMK2Color.Green1;
+            //button72.Color = (byte)LaunchpadMK2Color.Green2;
+            //button73.Color = (byte)LaunchpadMK2Color.Green3;
+            //button74.Color = (byte)LaunchpadMK2Color.Blue1;
+            //button75.Color = (byte)LaunchpadMK2Color.DarkGreen;
+            //button76.Color = (byte)LaunchpadMK2Color.Orange;
+            //button77.Color = (byte)LaunchpadMK2Color.Salmon;
+            //button78.Color = (byte)LaunchpadMK2Color.Yellow2;
 
-            button81.Color = (byte)LaunchpadMK2Color.Green1;
-            button82.Color = (byte)LaunchpadMK2Color.Green2;
-            button83.Color = (byte)LaunchpadMK2Color.Green3;
-            button84.Color = (byte)LaunchpadMK2Color.Blue1;
-            button85.Color = (byte)LaunchpadMK2Color.DarkGreen;
-            button86.Color = (byte)LaunchpadMK2Color.Orange;
-            button87.Color = (byte)LaunchpadMK2Color.Salmon;
-            button88.Color = (byte)LaunchpadMK2Color.Yellow2;
-
-
-
-
-
+            //button81.Color = (byte)LaunchpadMK2Color.Green1;
+            //button82.Color = (byte)LaunchpadMK2Color.Green2;
+            //button83.Color = (byte)LaunchpadMK2Color.Green3;
+            //button84.Color = (byte)LaunchpadMK2Color.Blue1;
+            //button85.Color = (byte)LaunchpadMK2Color.DarkGreen;
+            //button86.Color = (byte)LaunchpadMK2Color.Orange;
+            //button87.Color = (byte)LaunchpadMK2Color.Salmon;
+            //button88.Color = (byte)LaunchpadMK2Color.Yellow2;
 
 
             //button1.Color = (byte)LaunchpadMK2Color.Off;
@@ -256,16 +256,28 @@ namespace test.Effects
 
             var nextButton = gridButtons.First(button => button.Id == (byte)(int.Parse(row.ToString() + col.ToString())));
 
-            nextButton.Color = (byte)LaunchpadMK2Color.Off;
+            nextButton.Color = (byte)LaunchpadMK2Color.Green2;
+            nextButton.Color = (byte)LaunchpadMK2Color.Green2;
 
             System.Diagnostics.Debug.Write("nexButton location: " + nextButton.Id + " \n");
             System.Diagnostics.Debug.Write("nexButton color: " + nextButton.Color + " \n");
 
 
-            //if (lastButton != null)
-            //{
-            //    lastButton.Color = (byte)LaunchpadMK2Color.Off;
-            //}
+            if (lastButton != null)
+            {
+                //lastButton.Color = (byte)LaunchpadMK2Color.Off;
+            
+                //lastButton = gridButtons.First(button => button.Id == (byte)(int.Parse(row.ToString() + (col - 1).ToString())));
+                lastButton.Color = (byte)LaunchpadMK2Color.Off;
+                lastButton.Color = (byte)LaunchpadMK2Color.Off;
+                //lastButton.Color = (byte)LaunchpadMK2Color.Off;
+
+                System.Diagnostics.Debug.Write("lastButton value: " + lastButton.Id + " \n");
+                System.Diagnostics.Debug.Write("lastButton color: " + lastButton.Color + " \n");
+
+            }
+
+            lastButton = nextButton;
 
             if (isGoingRight)
             {
@@ -277,37 +289,131 @@ namespace test.Effects
             }
             if (col > 8)
             {
-                row++;
-                isGoingRight = false;
-                col--;
-            }
-            if (col == 1)
-            {
-                isGoingRight = true;
-                if (row > 1)
+                if (moveDown == false)
                 {
                     row++;
                 }
+                else if (moveDown == true)
+                {
+                    row--;
+                }
+                
+                isGoingRight = false;
+                col--;
+            }
+            if (col < 1)
+            {
+                
+                //if (row > 1)
+                //{
+                    if (moveDown == false)
+                    {
+                        row++;
+                    }
+                    else if (moveDown == true)
+                    {
+                        row--;
+                    }
+                //}
+
+                isGoingRight = true;
+                col++;
+            }
+            if (row == 9)
+            {
+                moveDown = true;
+                row--;
+                //return;
+            }
+            if (row == 0)
+            {
+                moveDown = false;
+                row++;
             }
 
             //lastButton = nextButton;
-            //lastButton.Color = (byte)LaunchpadMK2Color.Off;
-
-            //lastButton = gridButtons.First(button => button.Id == (byte)(int.Parse("3" + col.ToString())));
 
             //System.Diagnostics.Debug.Write("lastButton value: " + lastButton.Id + " \n");
             //System.Diagnostics.Debug.Write("lastButton color: " + lastButton.Color + " \n");
 
-            //System.Diagnostics.Debug.Write("Row 3, Column 1 color: " + button1.Color + " \n");
-            //System.Diagnostics.Debug.Write("Row 3, Column 2 color: " + button2.Color + " \n");
-            //System.Diagnostics.Debug.Write("Row 3, Column 3 color: " + button3.Color + " \n");
-            //System.Diagnostics.Debug.Write("Row 3, Column 4 color: " + button4.Color + " \n");
-            //System.Diagnostics.Debug.Write("Row 3, Column 5 color: " + button5.Color + " \n");
-            //System.Diagnostics.Debug.Write("Row 3, Column 6 color: " + button6.Color + " \n");
-            //System.Diagnostics.Debug.Write("Row 3, Column 7 color: " + button7.Color + " \n");
-            //System.Diagnostics.Debug.Write("Row 3, Column 8 color: " + button8.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 1, Column 1 color: " + button11.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 1, Column 2 color: " + button12.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 1, Column 3 color: " + button13.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 1, Column 4 color: " + button14.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 1, Column 5 color: " + button15.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 1, Column 6 color: " + button16.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 1, Column 7 color: " + button17.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 1, Column 8 color: " + button18.Color + " \n");
 
-            System.Diagnostics.Debug.Write("------------------ \n End Pass " + currentPass + "\n------------------ \n \n");
+            //System.Diagnostics.Debug.Write("Row 2, Column 1 color: " + button21.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 2, Column 2 color: " + button22.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 2, Column 3 color: " + button23.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 2, Column 4 color: " + button24.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 2, Column 5 color: " + button25.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 2, Column 6 color: " + button26.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 2, Column 7 color: " + button27.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 2, Column 8 color: " + button28.Color + " \n");
+
+            //System.Diagnostics.Debug.Write("Row 3, Column 1 color: " + button31.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 3, Column 2 color: " + button32.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 3, Column 3 color: " + button33.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 3, Column 4 color: " + button34.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 3, Column 5 color: " + button35.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 3, Column 6 color: " + button36.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 3, Column 7 color: " + button37.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 3, Column 8 color: " + button38.Color + " \n");
+
+            //System.Diagnostics.Debug.Write("Row 4, Column 1 color: " + button41.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 4, Column 2 color: " + button42.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 4, Column 3 color: " + button43.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 4, Column 4 color: " + button44.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 4, Column 5 color: " + button45.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 4, Column 6 color: " + button46.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 4, Column 7 color: " + button47.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 4, Column 8 color: " + button48.Color + " \n");
+
+            //System.Diagnostics.Debug.Write("Row 5, Column 1 color: " + button51.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 5, Column 2 color: " + button52.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 5, Column 3 color: " + button53.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 5, Column 4 color: " + button54.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 5, Column 5 color: " + button55.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 5, Column 6 color: " + button56.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 5, Column 7 color: " + button57.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 5, Column 8 color: " + button58.Color + " \n");
+
+            //System.Diagnostics.Debug.Write("Row 6, Column 1 color: " + button61.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 6, Column 2 color: " + button62.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 6, Column 3 color: " + button63.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 6, Column 4 color: " + button64.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 6, Column 5 color: " + button65.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 6, Column 6 color: " + button66.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 6, Column 7 color: " + button67.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 6, Column 8 color: " + button68.Color + " \n");
+
+            //System.Diagnostics.Debug.Write("Row 7, Column 1 color: " + button71.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 7, Column 2 color: " + button72.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 7, Column 3 color: " + button73.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 7, Column 4 color: " + button74.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 7, Column 5 color: " + button75.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 7, Column 6 color: " + button76.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 7, Column 7 color: " + button77.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 7, Column 8 color: " + button78.Color + " \n");
+
+            //System.Diagnostics.Debug.Write("Row 8, Column 1 color: " + button81.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 8, Column 2 color: " + button82.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 8, Column 3 color: " + button83.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 8, Column 4 color: " + button84.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 8, Column 5 color: " + button85.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 8, Column 6 color: " + button86.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 8, Column 7 color: " + button87.Color + " \n");
+            //System.Diagnostics.Debug.Write("Row 8, Column 8 color: " + button88.Color + " \n");
+
+
+            //System.Diagnostics.Debug.Write("------------------ \n End Pass " + currentPass + "\n------------------ \n \n");
+            System.Diagnostics.Debug.WriteLine("=====================================");
+            System.Diagnostics.Debug.WriteLine("             End Pass: " + currentPass);
+            System.Diagnostics.Debug.WriteLine("=====================================");
+
 
             currentPass++;
         }

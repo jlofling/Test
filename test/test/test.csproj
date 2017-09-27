@@ -95,6 +95,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Effects\ButtonPress.cs" />
+    <Compile Include="Effects\SimpleOnOff.cs" />
+    <Compile Include="Effects\FlashEffect2.cs" />
     <Compile Include="Effects\FlashEffect.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>

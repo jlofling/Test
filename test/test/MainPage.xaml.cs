@@ -36,8 +36,19 @@ namespace test
         {
             
             var launchpad = await Novation.Launchpad("launchpad");
-           // launchpad.SetButtonColor(3, 5, (byte)LaunchpadMK2Color.Orange);
-            launchpad.RegisterEffect(new FlashEffect(), TimeSpan.FromMilliseconds(500));
+            // launchpad.SetButtonColor(3, 5, (byte)LaunchpadMK2Color.Orange);
+
+            //launchpad.RegisterEffect(new EqualizerEffect(), TimeSpan.FromMilliseconds(200));
+            //launchpad.RegisterEffect(new BallGameEffect(), TimeSpan.FromMilliseconds(200));
+
+            // Note: Dropping below 500 ms results in inconsistent behavior. Some of the first 4 
+            //       buttons on row 1 will randomly fail to turn off.
+            launchpad.RegisterEffect(new SimpleOnOff(), TimeSpan.FromMilliseconds(500));
+            
+            //launchpad.RegisterEffect(new FlashEffect(), TimeSpan.FromMilliseconds(300));
+            //launchpad.RegisterEffect(new FlashEffect2(), TimeSpan.FromMilliseconds(300));
+
+            //launchpad.RegisterEffect(new ButtonPress(), TimeSpan.FromMilliseconds(300));
 
         }
 

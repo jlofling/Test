@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{C1FAF8D5-1A78-4C00-8391-681F191320AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "test\Test.csproj", "{C1FAF8D5-1A78-4C00-8391-681F191320AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launchpad.NET", "..\..\Launchpad.NET\Launchpad.NET\Launchpad.NET.csproj", "{6249AE4A-143E-43E2-8661-1F1E61988F53}"
 EndProject

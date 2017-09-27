@@ -24563,9 +24563,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jted\\Documents\\GitHub\\Test\\test\\test\\test.csproj",
-      "projectName": "test",
-      "projectPath": "C:\\Users\\jted\\Documents\\GitHub\\Test\\test\\test\\test.csproj",
+      "projectUniqueName": "C:\\Users\\jted\\Documents\\GitHub\\Test\\test\\test\\Test.csproj",
+      "projectName": "Test",
+      "projectPath": "C:\\Users\\jted\\Documents\\GitHub\\Test\\test\\test\\Test.csproj",
       "packagesPath": "C:\\Users\\jted\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jted\\Documents\\GitHub\\Test\\test\\test\\obj\\",
       "projectStyle": "PackageReference",
